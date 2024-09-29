@@ -154,16 +154,16 @@ class ActionHandler extends HTMLElement implements ActionHandler {
   }
 }
 
-customElements.define('action-handler-clock-weather', ActionHandler)
+customElements.define('action-handler-clock-weather-card-hui-icons', ActionHandler)
 
 const getActionHandler = (): ActionHandler => {
   const body = document.body
-  if (body.querySelector('action-handler-clock-weather')) {
+  if (body.querySelector('action-handler-clock-weather-card-hui-icons')) {
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-    return body.querySelector('action-handler-clock-weather')!
+    return body.querySelector('action-handler-clock-weather-card-hui-icons')!
   }
 
-  const actionhandler = document.createElement('action-handler-clock-weather')
+  const actionhandler = document.createElement('action-handler-clock-weather-card-hui-icons')
   body.appendChild(actionhandler)
 
   return actionhandler as ActionHandler
