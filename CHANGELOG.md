@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.3](https://github.com/samuelgoodell/clock-weather-card-hui-icons/compare/v3.0.2...v3.0.3) (2024-09-29)
+
+
+### Bug Fixes
+
+* Update action handler to not conflict with original repo action handler name ([cc78498](https://github.com/samuelgoodell/clock-weather-card-hui-icons/commit/cc78498c57b01fd43cd1c8c6bbcfe6c83bd416df))
+
 ## [2.8.5](https://github.com/pkissling/clock-weather-card/compare/v2.8.4...v2.8.5) (2024-09-08)
 
 
