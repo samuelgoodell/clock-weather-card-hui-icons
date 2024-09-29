@@ -9,7 +9,7 @@ import gzipPlugin from 'rollup-plugin-gzip'
 
 export default [
   {
-    input: 'src/clock-weather-card.ts',
+    input: 'src/clock-weather-card-hui-icons.ts',
     output: {
       dir: 'dist',
       format: 'es',

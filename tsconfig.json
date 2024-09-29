@@ -18,5 +18,5 @@
     "resolveJsonModule": true,
     "experimentalDecorators": true
   },
-  "include": ["src", "src/custom.d.ts"]
+  "include": ["src"]
 }
