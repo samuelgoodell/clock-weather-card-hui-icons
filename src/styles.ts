@@ -130,8 +130,8 @@ export default [
       background-color: var(--primary-text-color);
       border-radius: 50%;
       width: var(--bar-height);
-      border: var(--border-width) solid var(--text-light-primary-color);
-      margin-left: calc(var(--move-right) * -1 * var(--bar-height));
+      border: var(--border-width) solid var(--ha-card-background,var(--card-background-color,#fff));
+      margin-left: calc(var(--move-right) * -1 * var(--bar-height) - var(--border-width));
       margin-top: calc(-1 * var(--border-width));
     }
 
@@ -140,13 +140,13 @@ export default [
       left: var(--start-percent);
       right: calc(100% - var(--end-percent));
       background: linear-gradient(to right, var(--gradient));
-      overflow: hidden;
+      overflow: visible;
       min-width: var(--bar-height);
       margin-left: calc(var(--move-right) * -1 * var(--bar-height));
     }
 
     forecast-temperature-bar-current-indicator {
-      opacity: 0.75;
+      opacity: 1;
       left: var(--position);
     }
 
