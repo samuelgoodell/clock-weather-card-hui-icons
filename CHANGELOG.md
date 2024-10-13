@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.4](https://github.com/samuelgoodell/clock-weather-card-hui-icons/compare/v3.0.3...v3.0.4) (2024-10-13)
+
+
+### Bug Fixes
+
+* Adjust style of current temperature indicator dot to be properly horizontally positioned and take border radius into account, fix bug where some weather state icons would not be rendered in forecast rows ([c5a73e9](https://github.com/samuelgoodell/clock-weather-card-hui-icons/commit/c5a73e9de1d374e2d099995bc1319c88e3b414e5))
+
 ## [3.0.3](https://github.com/samuelgoodell/clock-weather-card-hui-icons/compare/v3.0.2...v3.0.3) (2024-09-29)
 
 
