@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.10](https://github.com/samuelgoodell/clock-weather-card-hui-icons/compare/v3.0.9...v3.0.10) (2024-11-27)
+
+
+### Bug Fixes
+
+* Don't run HACS action until release has been built and associated with GitHub release entity ([6cf5cf2](https://github.com/samuelgoodell/clock-weather-card-hui-icons/commit/6cf5cf2286ebfa55b09ca6777da062d8eac570e3))
+
 ## [3.0.9](https://github.com/samuelgoodell/clock-weather-card-hui-icons/compare/v3.0.6...v3.0.9) (2024-11-27)
 
 
