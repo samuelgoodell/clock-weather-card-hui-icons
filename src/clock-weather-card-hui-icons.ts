@@ -36,7 +36,7 @@ import { DateTime } from 'luxon'
 console.info(
   `%c  CLOCK-WEATHER-CARD-HUI-ICONS \n%c Version: ${version}`,
   'color: orange; font-weight: bold; background: black',
-  'color: white; font-weight: bold; background: dimgray'
+  'color: yellow; font-weight: bold; background: dimgray'
 );
 
 // This puts your card into the UI card picker dialog
