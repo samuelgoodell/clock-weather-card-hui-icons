@@ -43,11 +43,6 @@ export default [
       justify-content: center;
     }
 
-    .grow-img {
-      max-width: 100%;
-      max-height: 100%;
-    }
-
     clock-weather-card-today-right {
       display: flex;
       width: 65%;

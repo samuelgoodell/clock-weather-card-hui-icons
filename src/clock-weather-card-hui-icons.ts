@@ -243,7 +243,7 @@ export class ClockWeatherCardHUIIcons extends LitElement {
 
     return html`
       <clock-weather-card-today-left>
-        <img class="grow-img" src=${icon} />
+        ${icon}
       </clock-weather-card-today-left>
       <clock-weather-card-today-right>
         <clock-weather-card-today-right-wrap>

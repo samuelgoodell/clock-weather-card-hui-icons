@@ -1,7 +1,7 @@
 {
   "name": "clock-weather-card-hui-icons",
+  "description": "Fork of clock-weather-card, but using icons consistent with other Home Assistant frontend components",
   "version": "3.0.4",
-  "description": "Lovelace clock-weather-card",
   "keywords": [
     "home-assistant",
     "homeassistant",
@@ -10,11 +10,24 @@
     "lovelace",
     "custom-cards"
   ],
-  "module": "clock-weather-card-hui-icons.js",
-  "repository": "git@github.com:samuelgoodell/clock-weather-card-hui-icons.git",
-  "author": "Samuel Goodell <sam@mangane.se>",
   "license": "MIT",
+  "author": "Samuel Goodell <sam@mangane.se> (https://samuelgoodell.com)",
+  "homepage": "https://github.com/samuelgoodell/clock-weather-card-hui-icons",
+  "bugs": {
+    "url": "https://github.com/samuelgoodell/clock-weather-card-hui-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:samuelgoodell/clock-weather-card-hui-icons.git"
+  },
+  "scripts": {
+    "start": "rollup -c rollup.config.dev.js --watch",
+    "build": "yarn rollup",
+    "lint": "eslint **/*.ts --max-warnings 0",
+    "rollup": "rollup -c"
+  },
   "type": "module",
+  "module": "clock-weather-card-hui-icons.js",
   "dependencies": {
     "custom-card-helpers": "^1.8.0",
     "home-assistant-js-websocket": "^9.0.0",
@@ -44,11 +57,5 @@
     "@rollup/plugin-terser": "^0.4.0",
     "rollup-plugin-typescript2": "^0.36.0",
     "typescript": "*"
-  },
-  "scripts": {
-    "start": "rollup -c rollup.config.dev.js --watch",
-    "build": "yarn rollup",
-    "lint": "eslint **/*.ts --max-warnings 0",
-    "rollup": "rollup -c"
   }
 }
