@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.6](https://github.com/samuelgoodell/clock-weather-card-hui-icons/compare/v3.0.5...v3.0.6) (2024-11-27)
+
+
+### Bug Fixes
+
+* Formatting for console version announcement on init ([669d9e7](https://github.com/samuelgoodell/clock-weather-card-hui-icons/commit/669d9e70058e4fdb64145d299f4d1f5997dee3d0))
+
 ## [3.0.5](https://github.com/samuelgoodell/clock-weather-card-hui-icons/compare/v3.0.4...v3.0.5) (2024-11-27)
 
 
