@@ -292,7 +292,6 @@ export class ClockWeatherCardHUIIcons extends LitElement {
   }
 
   private renderForecastItem (forecast: MergedWeatherForecast, gradientRange: Rgb[], minTemp: number, maxTemp: number, currentTemp: number | null, hourly: boolean, displayText: string, maxColOneChars: number): TemplateResult {
-    // const weatherState = forecast.condition === 'pouring' ? 'raindrops' : forecast.condition === 'rainy' ? 'raindrop' : forecast.condition
     const weatherState = forecast.condition
     const weatherIcon = this.toIcon(weatherState, true)
     const tempUnit = this.getWeather().attributes.temperature_unit
