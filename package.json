@@ -1,7 +1,7 @@
 {
   "name": "clock-weather-card-hui-icons",
   "description": "Fork of clock-weather-card, but using icons consistent with other Home Assistant frontend components",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "keywords": [
     "home-assistant",
     "homeassistant",
