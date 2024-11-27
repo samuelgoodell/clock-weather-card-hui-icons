@@ -12,7 +12,7 @@ A [Home Assistant Dashboard Card](https://www.home-assistant.io/dashboards/) ava
 
 ## Attribution
 
-This is a fork of the [Clock Weather Card](https://github.com/pkissling/clock-weather-card) by [Patrick Kissling](https://github.com/pkissling).  I created this form to customize the icons and have a consistent style in my personal Home Assistant dashboards.
+This is a fork of the [Clock Weather Card](https://github.com/pkissling/clock-weather-card) by [Patrick Kissling](https://github.com/pkissling).  I created this fork to customize the icons and have a consistent style in my personal Home Assistant dashboards.
 
 ## FAQ
 
