@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.5](https://github.com/samuelgoodell/clock-weather-card-hui-icons/compare/v3.0.4...v3.0.5) (2024-11-27)
+
+
+### Bug Fixes
+
+* Fix custom element define error ([#472](https://github.com/samuelgoodell/clock-weather-card-hui-icons/issues/472)) ([722fb76](https://github.com/samuelgoodell/clock-weather-card-hui-icons/commit/722fb763b56282f7b3dbfb5ab55c332c404a3390))
+* Update Luxembourgish translations ([#473](https://github.com/samuelgoodell/clock-weather-card-hui-icons/issues/473)) ([ec584de](https://github.com/samuelgoodell/clock-weather-card-hui-icons/commit/ec584decf5a78300e1652036d494513f2279c49c))
+
 ## [3.0.4](https://github.com/samuelgoodell/clock-weather-card-hui-icons/compare/v3.0.3...v3.0.4) (2024-10-13)
 
 
