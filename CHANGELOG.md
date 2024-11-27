@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.9](https://github.com/samuelgoodell/clock-weather-card-hui-icons/compare/v3.0.6...v3.0.9) (2024-11-27)
+
+
+### Bug Fixes
+
+* Code whitespace ([af2c295](https://github.com/samuelgoodell/clock-weather-card-hui-icons/commit/af2c29519dfae029dd9717ccf8941e37a7b40d42))
+
 ## [3.0.6](https://github.com/samuelgoodell/clock-weather-card-hui-icons/compare/v3.0.5...v3.0.6) (2024-11-27)
 
 
