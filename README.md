@@ -81,14 +81,14 @@ The basic idea of the forecast bars is to be able to understand the weather tren
 
 ```yaml
 type: custom:clock-weather-card-hui-icons
-entity: weather.home
+entity: weather.home  # replace with your weather providers's entity id
 ```
 
 ### Full configuration
 
 ```yaml
 type: custom:clock-weather-card-hui-icons
-entity: weather.home
+entity: weather.home  # replace with your weather providers's entity id
 title: Home
 sun_entity: sun.sun
 temperature_sensor: sensor.outdoor_temp
